@@ -105,14 +105,14 @@ router.post('/adduser',function (req,res){
     secure:false,
     requireTLS:true,
     auth:{
-        user:"vedantcom",
-        pass:"vedant"
+        user:"sender email",
+        pass:"password"
     }
     
 });
 
 var mailOptions={
-    from:"vedant.chaudhari.777@gmail.com",
+    from:"sender email",
     to:e.toString(),
     subject:"testing",
     text:"hello user your data has been enter"
